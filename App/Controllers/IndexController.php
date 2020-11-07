@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-class Index extends BaseController{
+class IndexController extends BaseController{
     public function index() {
         $this->render('index', []);
     }
